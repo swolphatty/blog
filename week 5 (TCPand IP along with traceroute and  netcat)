@@ -1,0 +1,12 @@
+This week we dove into TCP/IP protocols and network tracing.
+  we learned how to check a port and an ip address
+  Learned how to use netcat and traceroute to do this
+  learned about what protocol packets look like and how big/small they can get
+  shown visual diagrams that helped understand how each layer added headers and trailers (very helpful)
+
+The try hack me had us use a VM to test out traceroute and netcat (nc) and read through the man pages of both of them
+  saw examples of how traceroute shows ports it passes through 
+  learned how to read the ports like a map 
+  recognized which port was closest to the address we were trying to reach.
+  
+Thank you for reading what I learned in week 5 of my networking class.
