@@ -1,0 +1,70 @@
+This week in CSCI 019 network class we learned about different types of cabling and their uses.
+1)	Learned about 
+a)	frequency bandwidth and throughput
+b)	Transmission flaws
+i)	EMI (electromagnetic interference)
+ii)	Cross-talk
+(1)	Alien cross-talk
+(2)	Near end cross-talk (NEXT)
+(3)	Far end cross-talk (FEXT)
+iii)	Attenuation
+iv)	Latency
+v)	RTT
+c)	Transmission types
+i)	Full-duplex
+ii)	Half-duplex
+iii)	Simplex
+iv)	Multiplexing
+(1)	Multiplexer (mux)
+(2)	Demultiplexer (demux)
+(a)	TDM (Time division multiplexing)
+(b)	STDM (statistical time division multiplexing)
+(c)	FDM (Frequency Division Multiplexing)
+(3)	WDM (Wavelength Division Multiplexing)
+(4)	DWDM (Dense Wavelength Division Multiplexing)
+(5)	CWDM (Coarse Wavelength Division Multiplexing)
+d)	Cable types
+i)	Coaxial cable (coax)
+ii)	Twinaxial cable (twinax)
+iii)	Twisted-Pair cable 
+(1)	UTP
+(2)	STP
+e)	Cable Pinouts
+i)	TIA/EIA 568A
+ii)	TIA/EIA 568B
+(1)	Straight-through cable (patch cable)
+(2)	Rollover cables (console cables)
+f)	PoE (Power over Ethernet)
+i)	15.4 watts for standard
+ii)	25.5 watts for newer
+iii)	PSE
+iv)	PDs
+g)	Fiber-optic Cables
+i)	SMF
+ii)	MMF
+(1)	Fiber connectors
+(a)	UPC (Ultra Polished Connector)
+(b)	APC (Angle Polished Connector)
+h)	Media Converters
+i)	Fiber Transceivers
+i)	SFP (small form-factor pluggable)
+ii)	XFP (10 Gigabit small form-factor pluggable)
+iii)	SFP+
+iv)	QSFP (quad small form-factor pluggable)
+v)	QSFP+
+vi)	CFP (centum form-factor Pluggable)
+j)	Common Fiber-Cable Problems
+i)	Fiber type mismatch
+ii)	Wavelength mismatch
+iii)	Dirty connectors
+iv)	Link loss
+k)	Toner and probe kits
+l)	Multimeters
+m)	Cable Continuity Testers
+n)	Cable Performance Testers
+i)	TDR (time domain reflectometer)
+ii)	OTDRs (optical time domain reflectometers)
+o)	OPM (Optical Power Meters
+2)	Punch down tools
+a)	66 format cables (voice)
+b)	110 format cables (data)
