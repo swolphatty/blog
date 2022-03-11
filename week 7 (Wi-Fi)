@@ -1,0 +1,281 @@
+WHAT WE STUDIED IN WEEK 7
+
+1)	Wireless transmission characteristics
+  a) 	WLANs (wireless networks) are networks that transmit signals via RF
+  b)	Uses same layer 3 and higher protocols as LAN
+2)	Wireless Spectrum
+  a)	Frequency range of electromagnetic waves used for data and voice communication
+  b)	Some have only a single band (fixed frequency) 
+  c)	RFID (Radio frequency identification) uses electromagnetic fields to store data on an RFID tag]
+    i)	Can include an antenna that can transmit and receive and a battery
+    ii)	Commonly used for inventory management 
+  d)	Near-field communication (NFC) is a form of RFID that transfers data wirelessly over very short distances
+    i)	Can be transmitted on way by an NFC tag, or smart tag
+    ii)	Collects power from the smartphone or other device by magnetic induction.
+  e)	Z-Wave is a smart home protocol that provides two basic types of functions
+    i)	Signaling to manage wireless connections
+    ii)	Control to transmit data  and commands between devices
+  f)	A Z-Wave network (a hub) receives commands from a smartphone or computer and relays the commands to various smart devices on its network
+  g)	ZigBee is a low-powered, battery-conserving wireless technology
+    i)	Designed to handle small amounts of data
+    ii)	Zigbee is used in a loT devices for purposes such as
+      (1)	Building automation 
+      (2)	HVAC controls
+      (3)	AMR (automatic meter reading)
+      (4)	Fleet management
+  h)	Bluetooth technology unites separate entities under a single communication standard
+    i)	Hops between frequencies within that band to help reduce interference
+    ii)	Most devices require close proximity 
+      (1)	Exact distance requirements depend on class of device
+  i)	ANT+ technology is based on the ANT protocol
+    i)	An ad-hoc wireless protocol operating at about 2.4 GHz
+    ii)	Gathers and tracks information from sensors typically embedded in
+      (1)	Heart rate monitors
+      (2)	GPS devices
+      (3)	Other activity monitoring devices
+    iii)	Can also sync data from multiple devices for the same activity, examples include
+      (1)	Smartwatch
+      (2)	Smartphone
+      (3)	Bicycle computer
+      (4)	Fitness equipment
+  j)	IR (infrared) technology is used primarily to collect data through various sensors
+    i)	Exists just below the spectrum visible to the human eye
+  k)	IR sensors are used to collect information such as
+    i)	Presence or level of liquid
+    ii)	Variations in reflections from skin caused by variations in blood flow
+    iii)	Proximity to the device
+    iv)	Commands from a control device
+3)	Channel management
+  a)	Most wireless devices implement one of two technologies
+    i)	FHSS (frequency hopping spread spectrum)
+    ii)	DSSS (direct sequence spread spectrum)
+  b)	How each wireless standard in the 2.4 GHz range uses its allotted band
+    i)	Wi-Fi uses DSSS
+    ii)	Bluetooth uses FHSS
+    iii)	ZigBee uses DSSS
+4)	Antennas 
+  a)	Wireless signals originate from electrical current traveling along a conductor
+  b)	The electrical signal travels from the transmitter to an antenna, which emits the signal as a series of electromagnetic waves
+    i)	At the destination another antenna accepts the signal and a receiver converts it back to the current
+  c)	Two antennas must be tuned to same frequency in order to use the same channel
+  d)	A radiation pattern describes the relative strength over a 3 dimensional area of all electromagnetic energy that antenna sends or receives
+  e)	Directional (unidirectional) antenna issues wireless signals along a single direction
+  f)	Omnidirectional sends and receives wireless signals with equal strength in all directions.
+  g)	The geographical area that the antenna can reach is known as its range.
+5)	Signal Propagation
+  a)	Propagation refers to the way in which a wave travels from one point to another
+  b)	LOS (Line of sight) occurs when the signal travels in a straight line directly from transmitter to receiver
+  c)	Wireless signals do not usually follow a straight line
+  d)	If obstacles are in the way a signal may
+    i)	Pass through the object
+    ii)	Be absorbed by the object
+  e)	Attenuation: the farther the signal moves away from the transmission source the more it weakens
+    i)	Wireless signals can be amplified by increasing the power of the transmission or extended by repeating the signal from a closer broadcast point called a wireless range extender
+  f)	Fading: as a signal runs into obstacles its energy will gradually fade
+    i)	Excessive fading can cause dropped connections or slow data transmissions
+  g)	Interference: Electromagnetic waves can interfere with wireless communications
+    i)	Wireless signals are more vulnerable to noise
+    ii)	Signal-to-noise ratio (SNR) is the proportion of noise to the strength of a signal
+  h)	Refraction: as a wave travels through objects the waves direction, speed, and wavelength are altered (or refracted) 
+  i)	Reflection: the wave encounters an obstacle and reflects
+  j)	Scattering: when a wireless signal encounters an object that has small surfice dimensions compared to the signals wavelength it is diffused or scattered into multiple directions
+  k)	Diffraction: a wireless signal is diffracted or split into secondary waves when it encounters an obstruction
+  l)	wireless signals follow different paths to destination known as Multipath Signals
+6)	802.11 WLAN Standards
+  a)	WLANs work layers 1 and 2
+7)	Most popular standards used by WLANs is referred to as Wi-Fi (wireless Fidelity)
+8)	Notable Wi-Fi standards
+  a)	802.11b, a , g , n, ac , and ax
+  b)	802.11n and later modify the way frames are used at the MAC sublayer (lower portion of the data link layer)
+  c)	The LLC sublayer is primarily concerned with
+    i)	Multiplexing
+    ii)	Flow and error control
+    iii)	Reliability 
+9)	802.11 innovations
+  a)	Channel bonding- two adjacent 20 MHz channels can be bonded to make 40 MHz channel
+    i)	More than doubles bandwidth available
+  b)	MIMO (multiple input-multiple output) Multiple access point and client device antennas may issue signal to one or more receivers.
+    i)	Increases range and networks throughput
+  c)	MU-MIMO (Multiuser MIMO) a newer technology that allows multiple antennas to service multiple clients simultaneously 
+    i)	Reduces congestion and contributes to faster data transmission
+    ii)	Is available with WAVE 2 802.11ac products 
+  d)	OFDMA (Orthogonal Frequency Division Multiple Access) supports more efficient multiuser functionality for 802.11 ax devices
+  e)	Frame aggregation combines multiple frames into one larger frame
+    i)	Uses one of two techniques
+      (1)	A-MSDU (Aggregated Mac Service Data Unit)
+      (2)	A-MPDU (Aggregated Mac Protocol Data Unit)
+10)	Access Method
+  a)	802.11 Mac services append 48-bit physical addresses to frame to identify source and destination
+  b)	The use of the same physical addressing scheme as other ethernet networks allows easy combination with other IEEE networks.
+  c)	Wireless devices are not designed to simultaneously transmit and receive
+  d)	802.11 standards specify the use of CSMA/CA (Carrier Sense Multiple Access with collision avoidance) procedures to access a shared medium 
+    i)	Uses ack packets to verify every transmission 
+    ii)	Requires more overhead than 802.3
+  e)	RTS/CTS (Request to send/Clear to send) protocol ensures packets are not inhibited by other transmissions
+    i)	Decreases network efficiency but can be efficient for large transmission packets.
+11)	Association and wireless topologies
+  a)	Association is the process where packets are exchanged between computer and an access point in order to gain internet access
+  b)	Scanning occurs when a wireless devices surveys its surroundings for an access point
+    i)	Active scanning : the wireless client takes the initiative by transmitting a special frame known as a probe
+    ii)	Passive scanning: the ap takes the initiative 
+      (1)	Wireless devices listen for special signal known as a beacon Frame
+  c)	SSID (service set identifier) is a unique character string identifying an access point
+    i)	SSID is contained in the beacon frame info
+    ii)	Is configured in the 	Aps configuration utility and is recommended that it be changed from the default setting
+  d)	IEEE terms that reflect the most common wireless topologies include the following 
+    i)	IBSS (Independent basic service set) using an ad hoc topology  a small number of nodes closely positioned transmit directly to each other without an intervening connectivity device
+    ii)	BSS (basic service set) using an infrastructure topology a group of stations share an access point
+      (1)	Identifier for this group of nodes is known as BSSID (basic service set identifier)
+    iii)	ESS (extended service set) using a mesh topology. Several access points are connected to the same LAN network
+      (1)	These Aps are configured and managed by a wireless LAN controller
+      (2)	Clients that belong to the same ess share a special identifier called ESSID (extended service set identifier)
+      (3)	Allows a user to roam or change from ap to ap
+12)	IEEE 802.11 Frames
+  a)	Specifies mac sublayer fame type
+  b)	Fame types are divided into 3 groups
+    i)	Management frames
+    ii)	Control frames
+    iii)	Data frames
+13)	Implementing a Wi-Fi Network
+  a)	Determine design
+    i)	Home/small office network (SOHO)
+      (1)	Might have only one access point
+      (2)	Ap device often combines switching and other network functions
+      (3)	Connects wireless clients to LAN and acts as an internal gateway
+      (4)	Many contain IoT (Internet of Things) devices
+        (a)	Examples of IoT include
+          (i)	Health monitors
+          (ii)	Exercise equipment
+          (iii)	Gps locators
+          (iv)	Smartwatches
+          (v)	Smart speakers
+          (vi)	Smart thermostats
+          (vii)	Smart doorbells
+          (viii)	Security cameras
+          (ix)	Smart refrigerators 
+      (5)	Things to consider when installing an AP
+        (a)	Distance
+        (b)	Type and number of obstacles 
+        (c)	Coverage 
+        (d)	Inference 
+      (6)	Larger WLANs warrant a more systematic approach to access point placement
+      (7)	a site survey assesses
+        (a)	 client requirements
+        (b)	 facility characteristics 
+        (c)	coverage areas
+      (8)	site surveys may include
+        (a)	studying building blueprints to look for obstacles
+        (b)	consider whether Wi-Fi access points will be used as wireless bridges to create remote wired access to the network
+        (c)	decide which if any floors require multiple Aps
+        (d)	measure signal coverage and strength from other WLANs
+        (e)	consider materials used in objects that aren’t always present in environment
+        (f)	consider how wired and wireless portions will mesh\
+      (9)	configure Wi-Fi connectivity devices
+        (a)	Variables set during installation include
+          (i)	Administrator password
+          (ii)	SSID and whether or not the SSID is broadcast
+          (iii)	Security options
+          (iv)	Whether or not DHCP is used.
+      (10)	Configure Wi-Fi clients
+        (a)	Varies from one client type to another
+        (b)	If AP is broadcasting its SSID clients can detect and offer the option to assosciate with it (visible Wi-Fi)
+        (c)	On-boarding involves installing specific program or app on device to give trusted access to certain portions of network
+        (d)	Off-boarding involves removing programs stated above
+          (i)	Admins need a feature to off board remotely in case AP is lost or stolen (Remote Wipe)
+      (11)	Wi-Fi Security
+        (a)	802.11 offers no security by default
+        (b)	Authentication allows a client to log on to the network either by providing the correct password for the SSID or by providing user credentials processed by an authentication server
+          (i)	MAC filtering prevents AP from authentication any device whose MAC is not listed
+        (c)	Encryption algorithms  scramble data into a format that can’t easily be interpreted if signal is intercepted
+        (d)	WPA (Wi-Fi protected access)
+          (i)	Dynamically assigns every transmission it’s own key
+          (ii)	802.11i incorporates encryption key generation and management scheme known as TKIP (Temporal Key Integrity Protocol) to improve security for legacy WEP-based devices
+          (iii)	TKIP accomplishes 
+            1.	Message integrity
+            2.	Key distribution
+            3.	Encryption
+        (e)	WPA2 (same as above but version 2)
+          (i)	Uses stronger data confidentiality methods
+          (ii)	CCMP (Counter mode with CBC [Cipher Block Chaining] MAC protocol) helps ensure data confidentiality with both encryption and packet authentication by providing
+            1.	Message integrity
+            2.	Encryption (uses AES [advanced encryption standard] which provides faster and more secure encryption)
+        (f)	Most secure communication is made possible by combining a RADIUS server with WPA/WPA2 (WPA-enterprise or WPA2-enterprise)
+        (g)	RADIUS (remote authentication dial in user service) is an open source authenticator and authorization service 
+          (i)	Used in cooperation with authentication mechanism called EAP (Extensible Authentication Protocol) which provides framework for authenticating clients and servers
+          (ii)	Functions alongside RADIUS by organizing communication with network client and devices while RADIUS handles actual authentication on server
+        (h)	Additional security options include
+          (i)	AP and antenna placement
+          (ii)	Geofencing
+          (iii)	Gust network
+          (iv)	Wireless client isolation
+          (v)	Captive portal
+          (vi)	LoT access considerations
+      (12)	Security Threats to Wi-Fi networks
+        (a)	War driving- a hacker searches for unprotected wireless networks by driving around with a laptop configured to receive and capture wireless data transmissions
+        (b)	War chalking- hackers draw symbols with chalk on the sidewalk or wall near a vulnerable AP to make it known to other hackers
+        (c)	Evil twin- a rogue AP planted in a networks geological area to pose as an authorized AP
+        (d)	WPA attack – involves an interception of the network keys communicated between stations and APs (also known as WPA cracking)
+        (e)	WPS attack- involves cracking a pin in order to access an APs settings (easily done through brute forcing)
+      (13)	Wi-Fi tools
+        (a)	2 types you should have
+          (i)	Spectrum analyzer- a device that can assess the quality of the wireless signal
+          (ii)	Wireless analyzer (Wi-Fi analyzer) software that can evaluate Wi-Fi network availability optimize signal settings and help identify security threats.
+        (b)	Capabilities common to wireless testing tools
+          (i)	Identify transmitting access points stations and channels
+          (ii)	Measure signal strength from AP
+          (iii)	Indicate effects of attenuation signal loss and noise
+          (iv)	Interpret signal strength info
+          (v)	Ensure proper association and reassociation between APs 
+          (vi)	Capture and interpret traffic
+          (vii)	Measure throughput and assess data transmission errors
+          (viii)	Analyze characteristics of each channel 
+      (14)	Avoid Pitfalls
+        (a)	When you can’t get client to connect to AP
+          (i)	Wrong SSID
+          (ii)	Encryption protocol mismatch
+          (iii)	Incorrect passphrase
+          (iv)	Static channel utilization
+          (v)	Mismatched RF band
+          (vi)	Mismatched standards 
+          (vii)	Long AP association time
+        (b)	Slow connections
+          (i)	Insufficient wireless coverage
+          (ii)	RF attenuation/signal loss
+          (iii)	Interference
+          (iv)	Channel overlap
+          (v)	Wireless standard specifications
+          (vi)	Simultaneous wired and wireless connections
+          (vii)	Problems with firmware updates
+          (viii)	Incorrect antenna type
+          (ix)	Mismatched antenna polarization
+          (x)	Client saturation or overcapacity
+          (xi)	Client disassociation issues
+
+
+We were also asked to use our phones or other devices to find some SSID around us and list them. Here is a list of some of the networks I saw.
+1.	XFINITY
+2.	Xfinitywifi
+3.	East Wookistan
+4.	Fried Shrip
+5.	Hop baby
+6.	ParksFamily
+7.	RiffRaff3
+8.	Home-0E78-2.4
+9.	PAPAwifi
+10.	Myroad
+11.	Angiesstays6
+12.	Hold the door
+13.	KingK
+14.	Wifi-B
+15.	ATTZwlXbna
+16.	Crazyhome
+17.	Frysfries
+18.	Thenewwon
+19.	Ilbtwalker
+20.	Ifiwasazombie
+21.	Clintshome
+22.	Because I can
+23.	Whatthewifidoing
+24.	Starbucks guest
+25.	Zwambay
+We were also asked to look at one other data point and I chose my ethernet connection on my computer I do all my homework on. Which is simply named network 6
