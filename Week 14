@@ -1,0 +1,52 @@
+this week we read about wide area networks (wans)
+  entry point equiptment
+    DTE
+    DCE
+    NIU
+    LINE DRIVER
+    CSU/DSU
+  routing protocols 
+  router categories
+    core
+    edge
+    exterior
+  routing tables
+  routing path types
+    static
+    dynamic
+  route command
+  routing metrics
+  interior and exterior gateway protocols
+    IGP
+    EGP
+    OSPF
+    IS-IS
+    EIGRP
+    BGP
+  routing redundancy
+    active-active
+    active-passive
+    FHRP
+    VRRP
+    HSRP
+    GLBP
+  WAN connectivity
+    broadband
+    DIA
+  DSL
+  XDSL
+  Cable broadband
+  Fiber
+    FTTN
+    FTTC
+    FTTB
+  Leased lines
+  MPLS
+  cloud connectivity options
+  SD-WAN
+  wireless WAN
+  cellular networks
+  satelite networks
+  internet connectivity issues
+  interface problems
+  routing issues
